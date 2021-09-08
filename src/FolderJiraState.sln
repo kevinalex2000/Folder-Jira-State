@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FolderJiraState.Setup", "FolderJiraState.Setup\FolderJiraState.Setup.vdproj", "{1DAFB37A-EE8F-4379-B14C-C6550297C5A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FolderJiraState", "FolderJiraState\FolderJiraState.csproj", "{4A926BDF-22CC-4F27-8D62-0FD40C6A860E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FolderJiraState.Create", "FolderJiraState.Create\FolderJiraState.Create.csproj", "{C544F535-8B9A-473B-8503-164D9977C2DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FolderJiraState.Utils", "FolderJiraState.Utils\FolderJiraState.Utils.csproj", "{DEEBD9ED-0810-4602-B990-8E464D128855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderJiraState.Service", "FolderJiraState.Service\FolderJiraState.Service.csproj", "{9415764F-1C07-4DAA-80C2-659213CCF3A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A6DFF8E6-BF60-4A29-AD39-B9324E275919}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DAFB37A-EE8F-4379-B14C-C6550297C5A0}.Debug|Any CPU.ActiveCfg = Debug
+		{1DAFB37A-EE8F-4379-B14C-C6550297C5A0}.Release|Any CPU.ActiveCfg = Release
+		{4A926BDF-22CC-4F27-8D62-0FD40C6A860E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A926BDF-22CC-4F27-8D62-0FD40C6A860E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A926BDF-22CC-4F27-8D62-0FD40C6A860E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A926BDF-22CC-4F27-8D62-0FD40C6A860E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C544F535-8B9A-473B-8503-164D9977C2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C544F535-8B9A-473B-8503-164D9977C2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C544F535-8B9A-473B-8503-164D9977C2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C544F535-8B9A-473B-8503-164D9977C2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEEBD9ED-0810-4602-B990-8E464D128855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEBD9ED-0810-4602-B990-8E464D128855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEBD9ED-0810-4602-B990-8E464D128855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEBD9ED-0810-4602-B990-8E464D128855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9415764F-1C07-4DAA-80C2-659213CCF3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9415764F-1C07-4DAA-80C2-659213CCF3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9415764F-1C07-4DAA-80C2-659213CCF3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9415764F-1C07-4DAA-80C2-659213CCF3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A926BDF-22CC-4F27-8D62-0FD40C6A860E} = {A6DFF8E6-BF60-4A29-AD39-B9324E275919}
+		{C544F535-8B9A-473B-8503-164D9977C2DC} = {A6DFF8E6-BF60-4A29-AD39-B9324E275919}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B66683D5-1FB9-4E70-B825-42AE5CF72888}
+	EndGlobalSection
+EndGlobal
